@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home work 21</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Slider</title>
+  <style>
+  </style>
 </head>
-<body>
-    <h1>Home work 21</h1>
-    <div class="generate-simple-list" style="background-color: orange;">
+
+<div class="container">
+    <div class="slide-wrapper">
+      <div class="slide">
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1054867/pub_5cb641928ac11800b3228ba3_5cb64c829abb9f00b0967a4a/scale_1200" alt="saitama-in-one-punch-man" style="width: 100vw; height:100vh;">
+      </div>
+      <div class="slide">
+        <img src="https://images.wallpapersden.com/image/download/saitama-in-one-punch-man_65539_1280x720.jpg" alt="saitama-one-punch-man-3214">
+      </div>
+      <div class="slide">
+        <img src="https://img4.goodfon.ru/original/1280x720/4/d1/saitama-one-punch-man-vanpachmen-saitama-paren.jpg?d=1" alt="saitama-one-punch-man-vanpachmen-saitama-paren">
+      </div>
     </div>
-    <div class="generate-list" style="background-color: blue;">
-    </div>
-    <div style="background-color: greenyellow">
-    </div>
-    <script src="src/index.js"> </script>
+    <ul class="nav">
+      <li class="selected"></li>
+      <li></li>
+      <li></li>
+   </ul>
+    <div class="arrow prev"><img src="https://www.pikpng.com/pngl/b/285-2855074_left-arrow-white-close-icon-png-white-clipart.png" class="arrowStyle"></img></div>
+    <div class="arrow next"><img src="https://www.pikpng.com/pngl/b/285-2855074_left-arrow-white-close-icon-png-white-clipart.png" class="arrowStyle"></img></div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="src/index.js"></script>
 </body>
 </html>
